@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Sanskar" />
+    <meta
+      name="description"
+      content="I am learning HTML and this page has all I learn."
+    />
+    <title>My First HTML</title>
+    <link rel="icon" href="HTML5_Logo_512.png" type="image/x-icon" />
+  </head>
+  <body>
+    <header>
+      <h1>IDK. The Webpage?</h1>
+      <hr />
+      <nav>
+        <ul>
+          <li><a href="#learningHTML">Learning HTML</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#vacation">Places To Avoid</a></li>
+          <li><a href="#tables">Tables</a></li>
+          <li><a href="#forms">Forms</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <hr />
+      <article id="LearningHTML">
+        <h1>Hello World!!</h1>
+        <hr />
+        <h2>Smaller Heading</h2>
+        <h3>Even Smaller Heading</h3>
+        <p>
+          This is my first ever webpage lessgoo yayy
+          <figure>
+            <img
+              src="Images/logoHTML.png"
+              alt="HTML5 Logo"
+              title="I am learning HTML5"
+              width="200"
+              height="200"
+              loading="eager"
+            />
+            <figcaption>Official logo of HTML5</figcaption>
+          </figure>
+          <br />...so let me tell you how im doing it
+          <br />&nbsp;&nbsp;&nbsp;...im trying to use freecodecamp
+          <br />&nbsp;&nbsp;&nbsp;...also i am trying to use
+          <abbr title="Mozilla Developer Network"
+            ><a href="https://developer.mozilla.org" target="_blank"
+              >MDN</a
+            ></abbr
+          >
+          docs as well <br />&nbsp;&nbsp;&nbsp;...and i dont understand anything
+          tbh
+        </p>
+        <aside>
+          <details>
+            <summary>
+              Guess the <mark>number of hours</mark> I code everyday.
+            </summary>
+            <p>I don't. I'm tired.</p>
+          </details>
+        </aside>
+        <hr />
+      </article>
+      <article id="about">
+        <section>
+          <h2>Who Am I??</h2>
+          <p>Even i am not very sure of as to who tf am i right now</p>
+          <h3>Things that make me mad</h3>
+          <p>
+            Im very annoyed by the <em>presence of humans around me.</em><br />I
+            very much love my personal space and despise the idea of it being
+            invaded.
+          </p>
+        </section>
+        <h3>This is where I live:</h3>
+        <address>
+          47/2808, Gangapuram <br />Naini <br />Prayagraj-211008
+        </address>
+        <hr />
+      </article>
+      <!--This is a comment-->
+      <h2>Lists in HTML</h2>
+      <ol>
+        <li>Element 1 of an ordered list</li>
+        <li>Element 2</li>
+        <li>Element 3</li>
+      </ol>
+      <ul>
+        <li>Element 1 of an unordered list</li>
+        <li>Element 2</li>
+        <li>Element 3</li>
+      </ul>
+      <article id="vacation">
+        <h3>Places I wish to avoid for a vacation</h3>
+        <p>Anywhere cold.</p>
+        <img
+          src="Images/vacation.png"
+          alt="Beach Image"
+          width="300"
+          height="300"
+          loading="lazy"
+        />
+        <dl>
+          <dt>North Pole</dt>
+          <dd>I've heared that it is <strong>cold</strong>.</dd>
+          <dt>South Pole</dt>
+          <dd>This is bloody cold too</dd>
+          <dt>Mountain Tops</dt>
+          <dd>Jam jaaoge qt aap</dd>
+        </dl>
+        <hr />
+      </article>
+      <article id="tables">
+        <h2>Learning Tables</h2>
+        <p>
+          IDK why but I am. HTML is kinda annoying me now but anyways here we
+          go.
+        </p>
+        <table>
+          <caption>
+            An Imaginary Schedule
+          </caption>
+          <thead>
+            <tr>
+              <th>Time</th>
+              <th>Activity</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <time datetime="08:00">8am</time> -
+                <time datetime="11:00">11am</time>
+              </td>
+              <td>Write Code?</td>
+            </tr>
+            <tr>
+              <td>
+                <time datetime="12:00">12pm</time> -
+                <time datetime="13:00">1pm</time>
+              </td>
+              <td>Have Lunch</td>
+            </tr>
+            <tr>
+              <td>
+                <time datetime="14:00">2pm</time> -
+                <time datetime="17:00">5pm</time>
+              </td>
+              <td>DSA</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="2">
+                And that is what an imaginary schedule looks like
+              </td>
+            </tr>
+          </tfoot>
+        </table>
+        <hr>
+      </article>
+      <article id="forms">
+        <h2>Learning Forms</h2>
+        <p>Lol look at the next section/article please (sorry the tutorial guy did it that way)</p>
+      </article>
+      <hr>
+      <article id="contact">
+        <h2>Contact Me</h2>
+        <p>I'd really like to hear from you (or I might not depending on who you are)</p>
+        <form action="https://httpbin.org/get" method="get">
+          <fieldset>
+            <legend>Personal Info</legend>
+            <p>
+                <label for="firstName">First Name: </label>
+                <input type="text" name="firstName" id="firstName" placeholder="Jane" autocomplete="on" required>
+            </p>
+            <p>
+                <label for="lastName">Last Name: </label>
+                <input type="text" name="lastName" id="lastName" placeholder="Street" autocomplete="on" required>
+            </p>
+            <p>
+                <label for="password">Password: </label>
+                <input type="password" name="password" id="password" placeholder="secret" autocomplete="off">
+            </p>
+            <p>
+                <label for="phone">Phone: </label>
+                <input type="tel" name="phone" id="phone" placeholder="+910123456789" autocomplete="on">
+            </p>
+            <p>
+                <label for="decade">Favourite Decade: </label>
+                <input type="number" name="decade" id="decade" min="1900" max="2026" step="10" value="1950" autocomplete="on">
+            </p>
+            <p>
+              <label for="coffee">Favourite Coffee</label>
+              <select name="coffee" id="coffee">
+                <optgroup label="Coffees">
+                <option value="regularCoffee">Regular Coffee</option>
+                <option value="icedCoffee">Iced Coffee</option>
+                </optgroup>
+                <optgroup label="Espresso Drinks">
+                <option value="latte">Latte</option>
+                <option value="cappuccino" selected>Cappuccino</option>
+                <option value="cortado">Cortado</option>
+                <option value="americano">Americano</option>
+                </optgroup>
+                <option value="other">Other</option>
+              </select>
+            </p>
+            </fieldset>
+            <br>
+            <fieldset>
+              <legend>What is your Favourite Food?</legend>
+              <p>
+                <input type="radio" name="food" id="tacos" value="tacos">
+                <label for="tacos">Tacos</label>
+              </p>
+              <p>
+                <input type="radio" name="food" id="burger" value="burger">
+                <label for="burger">Burger</label>
+              </p>
+              <p>
+                <input type="radio" name="food" id="pizza" value="pizza">
+                <label for="pizza">Pizza</label>
+              </p>
+              <p>
+                <input type="radio" name="food" id="other" value="other">
+                <label for="other">Other</label>
+              </p>
+            </fieldset>
+            <fieldset>
+              <legend>Do You Have Pets?</legend>
+              <p>
+                <input type="checkbox" name="pets" id="dog" value="dog">
+                <label for="dog">Dog</label>
+              </p>
+              <p>
+                <input type="checkbox" name="pets" id="cat" value="cat">
+                <label for="cat">Cat</label>
+              </p>
+              <p>
+                <input type="checkbox" name="pets" id="Hamster" value="Hamster">
+                <label for="Hamster">Hamster</label>
+              </p>
+              <p>
+                <input type="checkbox" name="pets" id="otherPet" value="otherPet">
+                <label for="otherPet">Other</label>
+              </p>
+            </fieldset>
+            <fieldset>
+              <legend>Send Me A Note.</legend>
+              <label for="message">Your Message: </label>
+              <br>
+              <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message here"></textarea>
+            </fieldset>
+            <br>
+            <button type="submit">Submit</button>
+            <!--We do not give sensitive info to get...but rather to post-->
+            <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Post</button>
+            <button type="reset">Reset</button>
+        </form>
+        <hr>
+      </article>
+    </main>
+    <footer>
+      <p>
+        &lt;&lt;&lt;&copy;<a href="about.html" target="_blank">Sanny</a
+        >&gt;&gt;&gt;
+      </p>
+      <hr />
+      <p>
+        <a href="#">Back To Top</a>
+      </p>
+    </footer>
+  </body>
+</html>
+<!--div is just a section without any semantic meaning.-->
