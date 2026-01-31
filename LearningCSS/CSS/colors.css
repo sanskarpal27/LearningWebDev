@@ -1,0 +1,13 @@
+body{
+    font-size: medium;
+    background-color: #ffefd5;
+    color: rgb(0,0,0);
+}
+
+p{
+    /* color: rgba(0,0,0,0.5);
+    rgba is for setting color as well as transparency of the text */
+    color: #333;
+    /*0000FF is same as saying 00F*/
+    
+}
