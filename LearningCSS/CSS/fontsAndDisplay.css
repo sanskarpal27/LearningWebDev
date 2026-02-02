@@ -1,0 +1,78 @@
+/* The display property is used to whether an element is treated as a block or inline element and the layout used for its children*/
+/* Block --> Takes poori jagah, Inline --> doesn't */
+/* .box1{
+    width: 400px;
+    height: 311px;
+    background-color: beige;
+}
+.box2{
+    width: 400px;
+    height: 311px;
+    background-color: pink;
+} */
+/* notice how box1 and box2 are not side-by-side but rather they are upar neeche, kyuki box1 jo hai woh poori jagah leke baetha hai despite whatever width it has  */
+
+/* .box1{
+    width: 400px;
+    height: 311px;
+    background-color: beige;
+    display: inline;
+}
+.box2{
+    width: 400px;
+    height: 311px;
+    background-color: pink;
+    display: inline;
+} */
+/* when inline, top and bottom margin and padding have no effect */
+
+/* inline-block --> similar to inline, but setting width, height, margin, padding is allowed. Elements can sit next to each other...veryyy much used.*/
+.box1{
+    width: 400px;
+    height: 311px;
+    background-color: beige;
+    /* display: inline; */
+    display: inline-block;
+    padding: 50px;
+    text-align: right;
+}
+.box2{
+    width: 400px;
+    height: 311px;
+    background-color: pink;
+    /* display: inline; */
+    display: inline-block;
+    /* display: none;
+    visibility: hidden; */
+    text-align: center;
+}
+
+/* display: none; pe the element just vanishes awayyy along with its space (i.e. height, width, etc ) */
+/* visibility: none; pe the element vanishes but its space remains*/
+
+
+/* TEXT ALIGN PROPERTY */
+/* isse text move hota hai div nahi */
+
+/* TEXT DECORATION */
+.box3{
+    width: 300px;
+    height: 200px;
+    background-color: lightgrey;
+    text-decoration: underline;
+    text-decoration:line-through;
+    text-decoration: red wavy underline;
+    text-transform:capitalize; /* makes the first letter of each word capital */
+    line-height: 50px;
+}
+
+
+/* FONTS */
+.box4{
+    width: 400px;
+    height: 300px;
+    background-color: lightpink;
+    font-size: 20px;
+    font-family: monospace;
+    font-family: 'Courier New', Courier, monospace; /* just says ki ye wala nahi lagg paaya toh second one if not that then third one */
+}
