@@ -63,16 +63,25 @@
     text-decoration:line-through;
     text-decoration: red wavy underline;
     text-transform:capitalize; /* makes the first letter of each word capital */
-    line-height: 50px;
+    line-height: 50px;      /* 2 lines ke beech ka gap */
 }
 
 
 /* FONTS */
 .box4{
     width: 400px;
-    height: 300px;
+    height: 350px;
     background-color: lightpink;
     font-size: 20px;
     font-family: monospace;
     font-family: 'Courier New', Courier, monospace; /* just says ki ye wala nahi lagg paaya toh second one if not that then third one */
+    font-family: "Raleway", sans-serif; /*used that google wala shit*/
+    /* font-style: italic; */
+    font-style: oblique 40deg;
+    font-weight: 800;
 }
+/* Web Safe Fonts --> are the ones that are usually installed in all browsers */
+
+/* GENERIC FAMILY */
+/* font-family is specific while generic family is generic */
+/* e.g. fontfamily --> times new roman ; generic family --> serif or monospace */
