@@ -1,0 +1,30 @@
+/* Other than pixels, size can be described by units rem, em, vw, vh, percentages, etc */
+/* pixels are relative to the viewing device */
+
+/* RELATIVE LENGTHS --> these are related to some other lengths */
+/* 
+1. em --> unit relative to its parent font size
+2. rem --> unit relative to root font size (<html> tag)
+3. vw --> unit relative to 1% viewport width
+4. vh -->
+5. percentages --> unit relative to parent element
+ */
+
+.container{
+    font-size: 24px;
+}
+.box{
+    /* font-size: 12px; */
+    /* font-size: 2em; */   /* size becomes twice that of parent i.e. 34*2 = 68px */
+    /*font-size: 2rem; */   /*twice that of html tag (which is 16px by default in most browsers)*/
+    background-color: beige;
+    width: 50vw;
+    height: 50vh;
+    min-width: 60vw;
+}
+.box2{
+    background-color: pink;
+    height: 10vh;
+    min-height: 20vw;
+}
+/* CSS has a min-height, max-height, min-width, and max-width property. If the content is smaller than min-height, then min-height will be applied  */

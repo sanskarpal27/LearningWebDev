@@ -1,0 +1,57 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+ul{
+    background-color:bisque;
+}
+li{
+    /* display: inline; */
+    list-style: square inside ;
+}
+header{
+    background-color: black;
+    color: white;
+    height: 70px;
+    position: sticky;
+    z-index: 1;
+}
+p{
+    text-align: center;
+    border: 2px solid black;
+}
+.container{
+    background-color: pink;
+    height: 50vh;
+    width: 50vw;
+    margin: auto;
+    padding: 0 34px;
+    position: relative;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: beige;
+    /* position: relative; */     /*look how in relative only this moves all other elements are simply at their place.*/
+    /* position: absolute; */
+    position: fixed;
+    top: 5px;
+    left: 50px;
+}
+.box2{
+    height: 200px;
+    width: 200px;
+    background-color: lightgray;
+}
+/* POSITION PROPERTY : used to manipulate the location of an element:  */
+/* 
+1. static : this is the default value, top/bottom/left/right/z-index will not have any effect
+2. relative : they will now work. otherwise the element in the flow of the document like static.
+3. absolute : the element in removed from the flow and is relatively positioned to its first non-static acestor. top/bottom etc work
+4. fixed : element is positioned according to the browser window (everything else is same as absolute).
+5. sticky : the element is placed based on user's scroll position...like scroll krne par bhi navvar chipka rahega humesha screen pe
+
+Z-INDEX --> jiska Z index jitna zada rahega uski upar rehne ki priority utni zada rahegi
+ */
+
+ /* LIST-STYLE : used to give diff designs to list elements and shit...like cirlce or square bullet points. */
