@@ -28,3 +28,5 @@
     min-height: 20vw;
 }
 /* CSS has a min-height, max-height, min-width, and max-width property. If the content is smaller than min-height, then min-height will be applied  */
+
+/* to make a website responsive and shit, we use viewport units...toh fir the size of the text and shit changes with the size of the window */

@@ -1,0 +1,52 @@
+/* Aims at providing a better way to layout, align and distribute space among items in a container. */
+/* display: flex; this initializes a flexbox*/
+/* flex-direction defines the direction in which items are laid --> can be row, row-reverse, column, column-reverse*/
+/* 
+Other Imp flexBox Properties: 
+1. flex-wrap: can be wrap, nowrap, wrap-reverse. wraps items as needed.
+2. justify-content: defines alignment along main axis
+3. align-items: defines alignment along cross axis
+4. align-content: aligns a flex container's lines when there is extra space in the cross axis.
+ */
+ *{
+    margin: 0;
+    padding: 0;
+ }
+.container{
+    display: flex;
+    flex-direction: column;
+    /* flex-direction: row; */
+    flex-direction: row-reverse;
+    /* flex-wrap: wrap; */
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    background-color: aquamarine;
+    height: 100vh;
+    /* align-items: center; */
+    align-content: center;
+}
+.box1{
+    height: 200px;
+    width: 300px;
+    background-color: beige;
+    border: 2px solid black;
+    /* order: 2; */
+    /* align-self: flex-end; */
+    flex-grow: 2;
+}
+.box2{
+    height: 200px;
+    width: 300px;
+    background-color: pink;
+    border: 2px solid black;
+    /* align-self: flex-end; */
+    flex-grow: 1;
+}
+
+/* flexbox item properties : */
+/* 
+1. order: controls the order in which the items appear in the flex container
+2. align-self: Allows default alignment to be overridden for individual flex items
+3. flex-grow: defines the ability of a flex item to grow.
+4. flex-shrink: defines how much an element shrinks relative to others
+ */

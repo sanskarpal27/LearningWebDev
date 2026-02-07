@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box1{
+    height: 200px;
+    width: 300px;
+    background-color: beige;
+    float: right;
+}
+.box2{
+    height: 200px;
+    width: 300px;
+    background-color: pink;
+    float: right;
+    /* clear: right; */
+    clear: both;
+    
+}
+/* FLOAT property simply flows the element to the left/right of the page. */
+
+/* CLEAR property is used to clear the float. It specifies what elements can float beside a given element. */
